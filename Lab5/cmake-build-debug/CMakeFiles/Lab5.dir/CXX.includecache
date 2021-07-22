@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/audreywiggles/CLionProjects/Lab5/cmake-build-debug/extrafile.cpp
+extrafile.h
+/Users/audreywiggles/CLionProjects/Lab5/cmake-build-debug/extrafile.h
+iostream
+-
+fstream
+-
+
+/Users/audreywiggles/CLionProjects/Lab5/cmake-build-debug/extrafile.h
+iostream
+-
+vector
+-
+

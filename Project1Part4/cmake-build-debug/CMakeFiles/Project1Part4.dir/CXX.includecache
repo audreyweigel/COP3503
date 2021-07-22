@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/audreywiggles/CLionProjects/Project1Part4/cmake-build-debug/LinkedList.h
+iostream
+-
+vector
+-
+
+/Users/audreywiggles/CLionProjects/Project1Part4/cmake-build-debug/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+LinkedList.h
+/Users/audreywiggles/CLionProjects/Project1Part4/cmake-build-debug/LinkedList.h
+

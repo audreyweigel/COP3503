@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/audreywiggles/CLionProjects/Lab3/cmake-build-debug/ABS.h
+iostream
+-
+stack
+-
+leaker.h
+/Users/audreywiggles/CLionProjects/Lab3/cmake-build-debug/leaker.h
+
+/Users/audreywiggles/CLionProjects/Lab3/cmake-build-debug/leaker.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+memory
+-
+
+/Users/audreywiggles/CLionProjects/Lab3/cmake-build-debug/main.cpp
+iostream
+-
+ABS.h
+/Users/audreywiggles/CLionProjects/Lab3/cmake-build-debug/ABS.h
+
